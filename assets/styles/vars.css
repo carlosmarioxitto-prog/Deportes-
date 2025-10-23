@@ -1,0 +1,92 @@
+:root {
+--font-size: 14px;
+  --background: #ffffff;
+  --foreground: #073B4C;
+  --card: #ffffff;
+  --card-foreground: #073B4C;
+  --popover: #ffffff;
+  --popover-foreground: #073B4C;
+  --primary: #06D6A0;
+  --primary-foreground: #073B4C;
+  --secondary: #118AB2;
+  --secondary-foreground: #ffffff;
+  --muted: #118AB2;
+  --muted-foreground: #806D61;
+  --accent: #FFD166;
+  --accent-foreground: #073B4C;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(17, 138, 178, 0.2);
+  --input: transparent;
+  --input-background: rgba(17, 138, 178, 0.08);
+  --switch-background: #118AB2;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #06D6A0;
+  --chart-1: #06D6A0;
+  --chart-2: #118AB2;
+  --chart-3: #FFD166;
+  --chart-4: #073B4C;
+  --chart-5: rgba(6, 214, 160, 0.7);
+  --radius: 0.625rem;
+  --sidebar: #f8f8f8;
+  --sidebar-foreground: #073B4C;
+  --sidebar-primary: #06D6A0;
+  --sidebar-primary-foreground: #073B4C;
+  --sidebar-accent: #FFD166;
+  --sidebar-accent-foreground: #073B4C;
+  --sidebar-border: rgba(17, 138, 178, 0.2);
+  --sidebar-ring: #06D6A0;
+}
+  
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-size: var(--text-2xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-size: var(--text-xl);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-size: var(--text-lg);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    label {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    button {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    input {
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+  }
+}
